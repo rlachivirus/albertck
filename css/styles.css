@@ -494,6 +494,10 @@ progress {
   font-weight: 300;
 }
 
+.lead span {
+  font-weight: bold;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11432,4 +11436,33 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 170px;
+}
+
+.project .image {
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.project p {
+  margin: 0;
+  height: 100px;
+  width: 500px;
 }
