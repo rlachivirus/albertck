@@ -11443,7 +11443,7 @@ section.resume-section .resume-section-content {
   flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 100px;
+  row-gap: 100px;
 }
 
 .project {
@@ -11451,7 +11451,8 @@ section.resume-section .resume-section-content {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  gap: 170px;
+  column-gap: 170px;
+  row-gap: 30px
 }
 
 .project .image {
@@ -11463,6 +11464,15 @@ section.resume-section .resume-section-content {
 
 .project p {
   margin: 0;
-  height: 100px;
-  width: 500px;
+  height: 200px;
+  width: 470px;
+}
+
+.project p span:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.project p span:last-child {
+  margin-left: 400px;
 }
