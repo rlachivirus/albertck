@@ -11415,7 +11415,12 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 4.2rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  font-size: 5.5rem;
+  /* column-gap: 25px; */
+  width: 1000px;
 }
 
 section.resume-section {
@@ -11458,15 +11463,16 @@ section.resume-section .resume-section-content {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 170px;
+  column-gap: 100px;
   row-gap: 30px
 }
 
 .project .image {
   border: 2px solid black;
-  height: 250px;
-  width: 250px;
+  height: 260px;
+  width: 467px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .project p {
