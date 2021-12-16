@@ -577,10 +577,11 @@ progress {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 50px;
 }
 
 .list-inline-item {
-  /* display: inline-block; */
+  display: inline-block;
   height: 100px;
   width: 100px;
   
@@ -4052,6 +4053,18 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
 }
 
+.navbar p {
+  color: white;
+  font-size: 13px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .navbar p {
+    display: none;
+  }
+}
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -4270,6 +4283,7 @@ textarea.form-control-lg {
   .navbar-expand-lg .offcanvas-header {
     display: none;
   }
+
   .navbar-expand-lg .offcanvas {
     position: inherit;
     bottom: 0;
