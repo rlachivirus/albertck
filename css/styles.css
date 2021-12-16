@@ -576,10 +576,14 @@ progress {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .list-inline-item {
-  display: inline-block;
+  /* display: inline-block; */
+  height: 100px;
+  width: 100px;
+  
 }
 
 .list-inline-item:not(:last-child) {
@@ -4047,6 +4051,12 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.copyright {
+  position: absolute;
+  
+}
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -11424,7 +11434,7 @@ p.lead {
   flex-wrap: wrap; */
   font-size: 5.5rem;
   /* column-gap: 25px; */
-  width: 1000px;
+  width: 100%;
 }
 
 section.resume-section {
