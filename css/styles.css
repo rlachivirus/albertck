@@ -4054,7 +4054,8 @@ textarea.form-control-lg {
 
 .copyright {
   position: absolute;
-  
+  font-size: 15px;
+  color: white;
 }
 
 .navbar > .container,
