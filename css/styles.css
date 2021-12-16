@@ -4052,7 +4052,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
 }
 
-.copyright {
+p .copyright {
   position: absolute;
   font-size: 15px;
   color: white;
