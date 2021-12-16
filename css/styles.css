@@ -571,7 +571,11 @@ progress {
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
+  /* list-style: none; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .list-inline-item {
@@ -11481,12 +11485,11 @@ section.resume-section .resume-section-content {
   width: 470px;
 }
 
-.project p span:first-child {
+.project p span {
   font-size: 40px;
   font-weight: bold;
 }
 
 .project p a span {
-  font-size: 20px;
-  margin-left: 200px;
+  font-size: 17px;
 }
