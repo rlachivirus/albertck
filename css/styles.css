@@ -11486,7 +11486,7 @@ section.resume-section .resume-section-content {
   font-weight: bold;
 }
 
-.project p span:last-child {
+.project p a span {
   font-size: 20px;
   margin-left: 200px;
 }
