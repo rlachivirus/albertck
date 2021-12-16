@@ -11481,11 +11481,11 @@ section.resume-section .resume-section-content {
   width: 470px;
 }
 
-.project p span:first-child {
+.project p a span:first-child {
   font-size: 40px;
   font-weight: bold;
 }
 
-.project p span:last-child {
+.project p a span:last-child {
   margin-left: 400px;
 }
